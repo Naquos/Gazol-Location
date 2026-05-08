@@ -30,6 +30,7 @@
           "options": {
             "browser": "src/main.ts",
             "baseHref": "/Gazol-Location/",
+            "serviceWorker": "ngsw-config.json",
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [

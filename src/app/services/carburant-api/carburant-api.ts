@@ -140,7 +140,7 @@ export class CarburantApi {
     }
 
     try {
-      const csvText = await firstValueFrom(this.http.get('/shops_point.csv', { responseType: 'text' }));
+      const csvText = await firstValueFrom(this.http.get('./shops_point.csv', { responseType: 'text' }));
       this.shopsCache = this.parseShopsCSV(csvText);
       return this.shopsCache;
     } catch (error) {
