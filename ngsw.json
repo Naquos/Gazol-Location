@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1778275906463,
+  "timestamp": 1778276209525,
   "index": "/Gazol-Location/index.csr.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/Gazol-Location/favicon.ico",
         "/Gazol-Location/index.html",
-        "/Gazol-Location/main-QU2SBOTW.js",
+        "/Gazol-Location/main-3PHLBTX6.js",
         "/Gazol-Location/manifest.webmanifest",
         "/Gazol-Location/styles-N45SRMI6.css"
       ],
@@ -55,10 +55,10 @@
     "/Gazol-Location/icons/icon-512x512.png": "d2b47189cc2c6417f822a4839c7f0014495ac2cb",
     "/Gazol-Location/icons/icon-72x72.png": "f1f17e020e31d74be580f2a52f880b165da33a6f",
     "/Gazol-Location/icons/icon-96x96.png": "af0d11be40ea6968a6bceeca4c2e42bd8a54bfbb",
-    "/Gazol-Location/index.csr.html": "f9c8150f5b855a3b6f0edb623fe9290cda040113",
-    "/Gazol-Location/index.html": "41a880f16a6e21742e9f4b0fc83eba54afb4ec73",
+    "/Gazol-Location/index.csr.html": "2c8333cd5248999ba6165ed2ba60c018a8a9cdfd",
+    "/Gazol-Location/index.html": "6982a4a4dca4927de8a37a84391a3cca98610639",
     "/Gazol-Location/logo.png": "c1fcde6121badea127bf3d31a8fd71306e563e68",
-    "/Gazol-Location/main-QU2SBOTW.js": "54046606500a0074144b7bc9d1222ae340c971ee",
+    "/Gazol-Location/main-3PHLBTX6.js": "b2d9e82064996e5026ecf10733f277b86b7cbce3",
     "/Gazol-Location/manifest.webmanifest": "b1aa2e55cd340da75a7086e9ad4b75a9d1a2664e",
     "/Gazol-Location/shops_point.csv": "c57503ac5af0dfd3a71fda30841f96d90776f8e7",
     "/Gazol-Location/styles-N45SRMI6.css": "8c7b2578d663fbb5096e4e9b724580eca0bbda51"
