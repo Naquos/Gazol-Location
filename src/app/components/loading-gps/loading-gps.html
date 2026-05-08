@@ -1,0 +1,15 @@
+@if(gps.statut() === StatutGps.EN_ATTENTE) {
+<div class="row center">
+    <p>En attente de la localisation...</p>
+</div>
+} @else if(gps.statut() === StatutGps.ERREUR) {
+<div class="column center">
+    <p>Une erreur est survenue lors de la localisation.</p>
+    <button (click)="gps.activerGps()">Réessayer</button>
+</div>
+} @else if(gps.statut() === StatutGps.INACTIF) {
+<div class="column center">
+    <p>La localisation est désactivée. Veuillez l'activer pour continuer.</p>
+    <button (click)="gps.activerGps()">Réessayer</button>
+</div>
+}

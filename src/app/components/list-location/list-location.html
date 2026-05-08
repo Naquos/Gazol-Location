@@ -1,0 +1,23 @@
+<section class="stations" aria-live="polite">
+    <header class="stations__header">
+        <button type="button" class="stations__refresh" (click)="refresh()">
+            Rafraichir
+        </button>
+    </header>
+
+    @if (isLoading()) {
+    <p class="stations__state">Chargement des stations autour de vous...</p>
+    } @else if (error(); as err) {
+    <p class="stations__state stations__state--error">
+        Impossible de recuperer les donnees: {{ err }}
+    </p>
+    } @else if (stationCount() === 0) {
+    <p class="stations__state">Aucune station trouvee dans un rayon de 10 km.</p>
+    } @else {
+    <ul class="stations__list">
+        @for (station of stations(); track station.id) {
+        <app-location [carburantRecord]="station"></app-location>
+        }
+    </ul>
+    }
+</section>

@@ -1,0 +1,54 @@
+.stations {
+    width: min(960px, 90%);
+    margin: 1.5rem auto;
+    padding: 1rem;
+}
+
+.stations__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.stations__title {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.stations__refresh {
+    border: 1px solid var(--color-background-menu);
+    background: white;
+    color: var(--color-background-menu);
+    padding: 0.5rem 0.9rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.stations__refresh:hover {
+    background: #2dd4bf;
+}
+
+.stations__state {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.5rem;
+    padding: 0.9rem;
+}
+
+.stations__state--error {
+    background: #fef2f2;
+    border-color: #fecaca;
+    color: #991b1b;
+}
+
+.stations__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 0.8rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}

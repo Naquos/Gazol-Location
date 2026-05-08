@@ -1,0 +1,26 @@
+<div class="card column">
+    <div class="header row center">
+        <h3 class="title">{{ carburantRecord()?.ville || 'Ville inconnue' }}</h3>
+        <h4 class="subtitle">{{ carburantRecord()?.name || 'Nom inconnu' }}</h4>
+    </div>
+    <div class="body row center">
+        @if(carburantRecord()?.e10_prix !== undefined) {
+        <div class="badge e10 column center">
+            <span>E10</span>
+            <span>{{ carburantRecord()?.e10_prix }} €</span>
+        </div>
+        }
+        @if(carburantRecord()?.sp98_prix !== undefined) {
+        <div class="badge sp98 column center">
+            <span>SP98</span>
+            <span>{{ carburantRecord()?.sp98_prix }} €</span>
+        </div>
+        }
+        @if(carburantRecord()?.gazole_prix !== undefined) {
+        <div class="badge gazole column center">
+            <span>Gazole</span>
+            <span>{{ carburantRecord()?.gazole_prix }} €</span>
+        </div>
+        }
+    </div>
+</div>

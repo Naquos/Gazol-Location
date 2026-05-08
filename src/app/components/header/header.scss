@@ -1,0 +1,11 @@
+.container {
+    background-color: var(--color-background-menu);
+    padding-left: 5px;
+    box-shadow: 0 4px 6px var(--shadow-header-color);
+
+    img {
+        height: 50px;
+        width: auto;
+        margin: 5px 10px;
+    }
+}

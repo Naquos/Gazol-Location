@@ -1,0 +1,41 @@
+.card {
+    width: 90%;
+    background-color: white;
+    border: 3px solid var(--color-background-menu);
+    border-radius: 0.75rem;
+    overflow: hidden;
+
+    .header {
+        background-color: var(--color-background-menu);
+        color: white;
+
+        h3,
+        h4 {
+            margin: 0 5px;
+            text-align: center;
+        }
+    }
+
+    .body {
+
+        .e10 {
+            background-color: green;
+        }
+
+        .sp98 {
+            background-color: darkgreen;
+        }
+
+        .gazole {
+            background-color: orange;
+        }
+
+        .badge {
+            margin: 5px auto;
+            width: 30%;
+            border-radius: 10px;
+            color: white;
+            font-weight: 600;
+        }
+    }
+}
